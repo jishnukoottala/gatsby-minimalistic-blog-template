@@ -103,8 +103,8 @@ const Footer = ()=> {
           <Container>
                     <FooterUlIcons>
 						<li><Link to="#" ><FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon></Link></li>
-						<li><Link to="#" ><FontAwesomeIcon icon={faMedium}></FontAwesomeIcon></Link></li>
-						<li><Link to="#"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></Link></li>
+						<li><a href="https://medium.com/@jishnu61" ><FontAwesomeIcon icon={faMedium}></FontAwesomeIcon></a></li>
+						<li><a to="https://twitter.com/@jishnukoottala"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a></li>
 					</FooterUlIcons>
 					<FooterUlCopyright>
 						<li>&copy;KootsCode</li>
