@@ -2,8 +2,9 @@ import React from "react"
 import { graphql,Link } from "gatsby"
 import Layout from '../components/layout';
 import {Container,Section} from '../components/styles/CommonStyles';
-
-import {TempDiv} from './styles';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import {TempDiv,GoBackDiv} from './styles';
 import './styles.css';
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -29,10 +30,13 @@ export default function Template({
                 /></article>
        
       </TempDiv>
+<hr/>
+<GoBackDiv><Link to="/blog"><FontAwesomeIcon icon={faArrowLeft}> </FontAwesomeIcon> Go to Blogs</Link></GoBackDiv>
 
 
            </Container>
            </Section>
+          
       
     </Layout>
   )

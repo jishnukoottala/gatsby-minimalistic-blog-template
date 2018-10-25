@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import {Container} from '../styles/CommonStyles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars,fabFacebook } from '@fortawesome/free-solid-svg-icons'
-import { faFacebookF, faTwitter ,faGooglePlus, faMedium } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faTwitter ,faGooglePlus, faMedium,faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const FooterWrapper = styled.div`
         padding: 8em 0 6em 0;
@@ -51,6 +51,11 @@ const FooterUlIcons = styled.ul`
         display: inline-block;
         padding-right: 2.5em;
                 font-size: 1.5em;
+
+                a{
+
+                    cursor:pointer;
+                }
     }
 
     li:last-child {
@@ -75,7 +80,9 @@ const FooterUlCopyright = styled.ul`
 				display: inline-block;
 				list-style: none;
 				margin-left: 1.5em;
-				padding-left: 1.5em;
+                padding-left: 1.5em;
+                
+               
             }
 
             li:first-child {
@@ -102,9 +109,9 @@ const Footer = ()=> {
       <FooterWrapper>
           <Container>
                     <FooterUlIcons>
-						<li><Link to="#" ><FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon></Link></li>
+						<li><a href="https://github.com/jishnukoottala/gatsby-minimalistic-blog-template" ><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a></li>
 						<li><a href="https://medium.com/@jishnu61" ><FontAwesomeIcon icon={faMedium}></FontAwesomeIcon></a></li>
-						<li><a to="https://twitter.com/@jishnukoottala"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a></li>
+						<li><a href="https://twitter.com/@jishnukoottala"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a></li>
 					</FooterUlIcons>
 					<FooterUlCopyright>
 						<li>&copy;KootsCode</li>
