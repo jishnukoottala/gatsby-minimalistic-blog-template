@@ -20,10 +20,11 @@ export default function Template({
                 <TempDiv>
                     <br/>
                      <h1>{frontmatter.title}</h1>
-                        <br/>
+                        
+                        <h2>{frontmatter.date}</h2>
                     
                     <br/>
-                    <article> <h2>{frontmatter.date}</h2>
+                    <article> 
             <div
              className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}

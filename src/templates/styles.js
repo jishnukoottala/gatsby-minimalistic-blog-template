@@ -5,7 +5,7 @@ import styled from 'styled-components'
 export const TempDiv = styled.div`
 
 h1 {
-    font-size:2.5rem
+    font-size:2.8rem;
 
     @media only screen and (max-width: 600px) {
         font-size:1.8rem;
