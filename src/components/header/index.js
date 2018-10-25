@@ -85,7 +85,7 @@ const NavPanelToggle= styled.div`
 
     text-decoration: none;
 		text-decoration: none;
-		height: 100%;
+		
 		left: 0;
 		position: absolute;
 		top: 0;
@@ -276,8 +276,9 @@ console.log('isHome',this.props);
 
 <ul>
     <li><Link to="/">Home</Link></li>
+    <li><Link to="/blog">Blog</Link></li>
     <li><Link to="/about">About</Link></li>
-    <li><Link to="/page-2">Services</Link></li>
+    
   </ul></NavPanel>
         
       </div>

@@ -33,8 +33,12 @@ p:first-child{
 }
 
 
-@media screen and (max-width: 736px){
-  padding: 6em 2em 6em 2em;
+
+
+
+
+@media screen and (max-width: 1280px){
+  padding: 14em 0 11em 0;
 
 }
 
@@ -43,8 +47,14 @@ p:first-child{
 
 }
 
-@media screen and (max-width: 1280px){
-  padding: 14em 0 11em 0;
+
+@media screen and (max-width: 736px){
+  padding: 6em 2em 6em 2em;
+
+}
+
+@media only screen and (max-width: 600px){
+  padding: 6em 2em 6em 2em;
 
 }
 
