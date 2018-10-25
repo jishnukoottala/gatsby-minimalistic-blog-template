@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: jishnukoottala/GatsbyBlogStarter
+  repo: jishnukoottala/gatsby-minimalistic-blog-template
 
 media_folder: static/assets
 public_folder: /assets
